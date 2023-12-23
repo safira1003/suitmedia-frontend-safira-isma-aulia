@@ -4,7 +4,7 @@ This is the frontend application for Suitmedia coding test, developed by Safira 
 
 ## Project Overview
 
-This project is built using React, a popular JavaScript library for building user interfaces. It utilizes various libraries and tools, including Axios for making HTTP requests, React Router for handling navigation, and FontAwesome for incorporating icons.
+This project is built using React. It utilizes various libraries and tools, including Axios for making HTTP requests, React Router for handling navigation, and FontAwesome for incorporating icons.
 
 ## Getting Started
 
