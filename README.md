@@ -31,12 +31,6 @@ To run the project locally, follow these steps:
 
    The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
-## Available Scripts
 
-In the project directory, you can run the following scripts:
-
-- `npm start`: Runs the app in development mode.
-- `npm test`: Launches the test runner in interactive watch mode.
-- `npm run build`: Builds the app for production to the `build` folder.
 
 
