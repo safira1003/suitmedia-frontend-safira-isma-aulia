@@ -13,7 +13,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/safira1003/suitmedia-frontend-safira-isma-aulia.git
    cd suitmedia-frontend-safira-isma-aulia
    ```
 
