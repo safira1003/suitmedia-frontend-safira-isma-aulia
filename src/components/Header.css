@@ -1,0 +1,62 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+}
+
+.header.scrolledDown {
+    transform: translateY(-100%);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.header.scrolledUp {
+    background-color: #ff660094;
+    transform: translateY(0);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+
+.header.atTop {
+    background-color: #ff6600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu .active a {
+    padding-bottom: 0.5rem;
+    border-bottom: 5px solid #ffffff;
+}
+
